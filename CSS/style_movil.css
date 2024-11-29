@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-    #inicio {
+    body {
       background: url('../Imagenes/KEVIN2.png') no-repeat center center/cover;
       background-attachment: scroll;
     }
