@@ -26,3 +26,140 @@
         flex-direction: column;
     }
 }
+@media (max-width: 768px) {
+    #inicio {
+      background: url('../Imagenes/KEVIN2.png') no-repeat center center/cover;
+      background-attachment: scroll;
+    }
+  }  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+p, ul {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #ddd;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+.btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 0.5rem;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-primary { background-color: #E1306C; }
+.btn-primary:hover { background-color: #d12860; }
+
+.btn-info { background-color: #1DA1F2; }
+.btn-info:hover { background-color: #1994db; }
+
+.btn-success { background-color: #25D366; }
+.btn-success:hover { background-color: #22c058; }
+
+.btn-dark { background-color: #000000; }
+.btn-dark:hover { background-color: #000000; }
+
+nav {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 20px;
+}
+
+nav a.home-button {
+    background-color: #242424;
+    border-radius: 5px;
+}
+
+nav a.home-button:hover {
+    background-color: #000000;
+}
+
+nav a:hover {
+    background-color: #000000;
+    border-radius: 10px;
+}
+
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px 0px;
+    color: #b0b0b0;
+}
+
+.section-content img {
+    width: 100px;
+    margin-bottom: 10px;
+    filter: brightness(0.9);
+}
+
+.section-content h1 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.section-content p {
+    font-size: 20px;
+    max-width: 600px;
+    color: #ffffff;
+    font-weight: bold;
+}
+h3 {
+    font-weight: bold;
+}
+h4 {
+    font-weight: bold;
+}
+i{
+    width: 100px;
+    height: 100px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #ffffff;
+}
